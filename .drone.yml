@@ -13,7 +13,7 @@ steps:
     environment:
       SONAR_SCANNER_OPTS: "-Dsonar.sources=. -Dsonar.projectKey=easv-devops_HelloJava_AY3Gqs7kEVvRW2O60EGK -Dsonar.host.url=http://sonar.setgo.dk:9000 -Dsonar.token=sqp_f19cf0ce299865e0e40598e6e15bd7ef76082407"
     commands:
-      - ls -li
+      - ls -li -R
       - sonar-scanner
 
 
