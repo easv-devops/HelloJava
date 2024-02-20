@@ -13,7 +13,6 @@ steps:
     commands:
       - sonar-scanner \
         -Dsonar.projectKey=easv-devops_HelloJava_AY3Gqs7kEVvRW2O60EGK \
-        -Dsonar.projectName='HelloJava' \
         -Dsonar.host.url=http://sonar.setgo.dk:9000 \
         -Dsonar.token=sqp_f19cf0ce299865e0e40598e6e15bd7ef76082407
 
